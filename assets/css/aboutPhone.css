@@ -1,0 +1,64 @@
+/* ========================== About section ====================== */
+@media(max-width:1024px) {
+    video {
+        height: 530px;
+    }
+
+    .about {
+        padding: 100px 130px 0px 130px;
+    }
+
+    .about-head-para {
+        padding: 25px 130px;
+    }
+
+    .about-mid-heading {
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+}
+
+@media(max-width:768px) {
+    .about {
+        padding: 100px 25px 0px 25px;
+    }
+
+    .about-head-para {
+        padding: 25px 25px;
+    }
+
+    video {
+        height: 400px;
+    }
+
+}
+
+@media(max-width:425px) {
+    .about {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .about-head-para {
+        padding: 20px 0px;
+    }
+
+    video {
+        height: 230px;
+    }
+
+    .para-text {
+        padding: 0px;
+    }
+
+    .para-text h6 {
+        padding: 25px 0px;
+    }
+
+    .video-container {
+        margin-top: 60px;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+}

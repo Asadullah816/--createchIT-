@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Cera pro;
+    src: url("../Fonts/CeraPro-Regular.ttf");
+}
+
+.about {
+    padding: 0px 250px;
+    padding-top: 200px;
+}
+
+.about h1 {
+    font-family: Cera Pro;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(74, 74, 74, 1);
+}
+
+.about-head-para {
+    padding: 30px 230px;
+    text-align: center;
+}
+
+.about-head-para-contact {
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.about-head-para-contact p {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 400 !important;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(74, 74, 74, 1);
+
+
+}
+
+.about-head-para p {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 400 !important;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(74, 74, 74, 1);
+
+
+}
+
+
+/* =================================== */
+/* =================================== */
+/* =================================== */
+.video-section {}
+
+.position-relative {
+    position: relative !important;
+
+
+}
+
+.position-relative video {
+    max-width: 100%;
+}
+
+.play-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* =================================== */
+/* =================================== */
+/* =================================== */
+.video-container {
+    margin-top: 100px;
+}
+
+/* ====================== para section========== */
+.about-mid-heading {
+    padding-bottom: 40px;
+    padding-top: 200px;
+
+}
+
+.about-mid-heading h2 {
+    font-family: Cera Pro;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(74, 74, 74, 1);
+
+}
+
+.para-text {
+    padding: 20px;
+}
+
+.para-section {
+    width: 95%;
+    margin: auto;
+}
+
+.para-text p {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: justify;
+    padding-bottom: 10px;
+    color: rgba(74, 74, 74, 1);
+}
+
+.para-text h6 {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    padding: 25px 0px;
+    text-align: justify;
+    color: rgba(74, 74, 74, 1);
+}
+
+/* =================== icons section =============== */
+.icon-section {
+    margin-top: 150px;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+    border-radius: 3px;
+}
+
+
+
+/* ========================== Portfolio Section ======================= */
+/* ========================== Portfolio Section ======================= */
+/* ========================== Portfolio Section ======================= */
+.images-section {
+    margin-top: 80px;
+}
+
+.image {
+    filter: grayscale(100%);
+    transition: .2s;
+}
+
+.image:hover {
+    filter: grayscale(0%);
+}
